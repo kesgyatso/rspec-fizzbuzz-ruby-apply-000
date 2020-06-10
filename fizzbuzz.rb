@@ -1,16 +1,20 @@
 # Don't forget! This file needs to be 'required' in its spec file
 # See README.md for instructions on how to do this
-def fizzbuzz
+
+def fizzBuzz(number)
  
- if int % 3 ==0 #if the number int is divisible by 3
-  "Fizz" #Go Fizz
+ if number % 3 ==0 #if the number int is divisible by 3
+  "Fizz" 
 end
 
-  elsif int%5==0
+  elsif number%5==0
     "Buzz"
 end
 
-  elsif int%3==0 && int%5==0
+  elsif number%3==0 && int%5==0
 "FizzBuzz"
+
+else
+  number
 end
 end
