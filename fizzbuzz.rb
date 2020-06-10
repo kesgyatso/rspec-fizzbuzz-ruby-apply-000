@@ -5,11 +5,9 @@ def fizzBuzz(number)
  
  if number % 3 ==0 #if the number int is divisible by 3
   "Fizz" 
-end
 
   elsif number%5==0
     "Buzz"
-end
 
   elsif number%3==0 && int%5==0
 "FizzBuzz"
